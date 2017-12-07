@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background: url("Wildflowers.jpg");
+    background-size: 1440px 800px;
+    background-repeat:no-repeat;
+    display: compact;
+    
+}
+    
+.dropdown {
+    background-color: green;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: palegreen;
+}
+

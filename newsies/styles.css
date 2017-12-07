@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(249,247,241)
+}
+h1 {
+    text-align: center;
+    font-family: 'Diplomata SC', cursive;
+}
+
+#heading {
+    text-align: center;
+}
+
+.subhead {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 12px 0 12px 0;
+}
+
+.block {
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    padding-left: 200px;
+}
+
+img {
+    width: 150px;
+    height: 150;
+}
+
+.paragraph2 {
+
+}

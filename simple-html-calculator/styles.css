@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: cadetblue;
+    margin-left: 322px;
+    margin-right: 322px;
+    
+    
+}
+
+.box {
+    display: block;
+    float: left;
+    border: 3px solid gray;
+    margin: 23px;
+    width: 171px;
+    height: 64px;
+}
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+h1 {
+    text-align: center;
+    background-color: pink;
+    width: 653px;
+    height: 35px;
+}
+
+#output {
+    float: right;
+    width: 127px;
+}
+
+#output1 {
+    float: right;
+    width: 103px;
+}
+
+#output2 {
+    float: right;
+    width: 103px;
+}

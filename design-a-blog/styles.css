@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.navigation {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#wrapper {
+    width: 1024px;
+    margin: 0 auto; 
+}
+
+#header {
+    text-align: center;
+}
+
+img {
+    float: left;
+    padding: 10px;
+    width: 200px;
+    margin: 10px 10px 0px 0px;
+}
+
+.blog {
+    width: 1024px;
+    margin: 0 auto;
+    overflow: auto;
+}

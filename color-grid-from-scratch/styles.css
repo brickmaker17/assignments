@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box
+}
+/* .row.col is parent son relationship */
+
+/* .row.col {
+    height: 75vh
+} */
+.pink{
+    background-color: #F5C6D6;
+   
+}
+
+
+.hot-pink {  
+    background-color: #EE2E84;
+    
+ 
+}
+
+.blue {
+    background-color: #85CFD8;
+  
+}
+
+.green {
+    background-color: #8DC63F;
+}
+
+.orange {
+    background-color: #E76E34;
+}
+body {
+    height: 100vh;
+}
+.wrapper{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 75vh;
+    width: 75vh;
+    margin: auto;
+}
+
+.row {
+    height: 25%;
+}
+
+.col{
+    height: 100%;
+    display: inline-block;
+    margin: -2px;
+    border: 3px solid white;
+}
+
+.quarter{
+    width: 25%;
+}
+
+.three-forths{
+    width: 75%;
+}
+
+.full{
+    width: 100%;
+}
+
+.half {
+    width: 50%;
+}
