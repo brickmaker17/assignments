@@ -1,0 +1,13 @@
+body {
+    width: 150px;
+    border: 2px solid;
+}
+
+.wrapper {
+   background-color: rgba(128, 128, 128, 0.714) 
+}
+
+h1 {
+    background-color: gray;
+    margin: 0;
+}
