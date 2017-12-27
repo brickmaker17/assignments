@@ -1,0 +1,53 @@
+{
+    "appetizers": [{
+            "salad": "greens"
+        },
+        {
+            "bread": ["wheet", "white", "corn"]
+        },
+        {
+            "soup": ["tomato", "eggdrop", "onion"]
+        }
+    ],
+
+
+
+
+    "cold sandwiches": [{
+            "tuna": ["bread", "tuna"]
+        },
+        {
+            "ham": ["ham", "mayo", "lettace"]
+        },
+        {
+            "chicken": ["chicken", "mayo", "lettace"]
+        }
+    ],
+    "hot sandwiches": [{
+            "meatball": ["bread", "balls", "sauce"]
+    },
+        {
+            "Itialianbmt": ["bread", "bacon", "lettace", "tomatto"]
+        },
+        {
+            "chicken": ["chicken", "mayo", "lettace"]
+        }
+
+    ],
+    "desserts": [{
+        "creampuff": ["vinalla", "flower", "butter"]
+    },
+    {
+        "cheescake": ["cheese", "cake", "stuff"]
+    }],
+    "drinks": [{
+        "coke": ["sugar", "water", "stuff"]
+    },
+    {
+        "dp": ["sugar", "water", "stuff"]
+    },
+    {
+        "rootbeer": ["sugar", "water", "stuff"]
+    }
+]
+}
