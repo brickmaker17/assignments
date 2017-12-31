@@ -14,4 +14,14 @@ function dealership1(){
     return cars.brands.split("");
 }
 
+function dealership2(){
+    return cars.model.indexOf("s")
+}
+
+function dealership3(){
+    return cars.type.toUpperCase();
+}
+console.log(dealership3());
+
+
 
