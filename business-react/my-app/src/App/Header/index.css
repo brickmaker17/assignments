@@ -1,0 +1,12 @@
+.whatEver{
+    text-align: center;
+}
+header{
+    height: 60px;
+    background-color: aquamarine;
+}
+.text-wrapper{
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+}
