@@ -6,7 +6,7 @@ function App(props) {
     return (
         <div>
            <Header></Header>
-           <Footer></Footer>
+           <Footer color = "blue"></Footer>
         </div>
     )
 }

@@ -1,12 +1,32 @@
-.whatEver{
-    text-align: center;
-}
+
 header{
+    display: grid;
+    grid-template-columns: 10% 1fr 20%;
     height: 60px;
     background-color: aquamarine;
 }
 .text-wrapper{
-    display: grid;
+    display: flex;
     margin-left: 5%;
     margin-right: 5%;
+}
+a{
+    text-decoration: none;
+    padding-left:  30px;
+    padding-right: 30px;
+}
+nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border-radius: 6px;
+}
+form{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }

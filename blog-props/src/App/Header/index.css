@@ -1,0 +1,10 @@
+header{
+    background-image: url("./Img/home-bg.jpg");
+    color: white;
+    background-size: cover;
+    height: 532px;
+}
+.headcent{
+    text-align: center;
+    
+}
