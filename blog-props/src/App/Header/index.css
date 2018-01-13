@@ -1,10 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
 header{
     background-image: url("./Img/home-bg.jpg");
     color: white;
     background-size: cover;
+    background-position-y: center;
     height: 532px;
 }
-.headcent{
-    text-align: center;
+.center-text{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
+}
+.headcent{
+    font-size: 80px;
+    margin: 0 0 10px 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 800;
+}
+.subheading{
+    margin: 10px 0 0;
+}
+.overlay{
+    height: 100%;
+    background-color: #212529;
+    opacity: .5;
 }
