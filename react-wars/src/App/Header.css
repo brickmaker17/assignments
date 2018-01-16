@@ -1,0 +1,13 @@
+.head{
+    height: 120px;
+    color: yellow;
+    background-color: black;
+}
+.title{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    text-align: center;
+}

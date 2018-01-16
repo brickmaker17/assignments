@@ -1,0 +1,10 @@
+.bar{
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    width: 100px;
+    background-color: black;
+}
+.link-color{
+    color: yellow;
+}

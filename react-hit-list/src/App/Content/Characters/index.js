@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
 import Character from "./Character";
+import "./Content.css";
+
+
 
 import axios from "axios";
 const hUrl = "http://api.vschool.io:6543/hitlist.json";
@@ -52,7 +55,7 @@ class Characters extends Component {
                         <p>{errMsg}</p>
                     </div>
                     :
-                    <div>
+                    <div className="wrapper">
                         {characters.map((character, i) => {
                             let {name, image} = character;
                             return <Character key={i} name={name} image={image}></Character>
