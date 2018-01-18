@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import {connect} from "react-redux";
+import {addData} from "../../Redux";
 
 import Name from './Name';
 class Forms extends Component{
@@ -55,5 +57,5 @@ render(){
     )
 }
 }
-export default Forms;
+export default connect(state => state, {addData})(Forms);
 
