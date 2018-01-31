@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const uuid = require('uuid');
+const cors = require('cors');
 
 let bounties = require('./database.js');
 
@@ -8,6 +9,7 @@ const app = express();
 let port = 8080;
 
 app.use(bodyParser.json());
+app.use(cors());
 
 app.get('/bounties', (req, res) => {
     let query = req.query;
