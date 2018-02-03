@@ -64,7 +64,11 @@ class Bounty extends Component {
                     <br />
                     <input className= "boarder" name="lastName" onChange={this.handleChange} value={hits.lastName} onBlur={this.handleEdit}></input>
                     <p>{hits.living}</p>
-                    <p>{hits.type}</p>
+                    <select className= "boarder" value={hits.type} onChange={this.handleChange} onBlur={this.handleEdit} name="type">
+                        <option value="Sith">Sith</option>
+                        <option value="Jedi">Jedi</option>
+                    </select>
+                    {/* <p>{hits.type}</p> */}
                     <p>{hits.bountyAmount}</p>
                 </div>
                 <button onClick={this.handleDelete}>Delete</button>

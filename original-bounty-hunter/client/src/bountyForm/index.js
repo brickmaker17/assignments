@@ -78,7 +78,7 @@ class BountyForm extends Component {
                     <input onChange={this.handleChange} value={lastName} name="lastName" type="text" placeholder="Last Name" />
                     <br />
                     Living:
-                <input onChange={this.handleChange} checked={living} name="living" type="checkbox" />
+                    <input onChange={this.handleChange} checked={living} name="living" type="checkbox" />
                     <select value={type} onChange={this.handleChange} name="type">
                         <option value="Sith">Sith</option>
                         <option value="Jedi">Jedi</option>
