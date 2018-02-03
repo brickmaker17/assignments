@@ -1,6 +1,6 @@
 const express = require('express');
 const bountyRouter = express.Router();
-const bountyModel = require('../models/database');
+const bountyModel = require('../models/bounties');
 
 bountyRouter.route('/')
     .post((req, res) => {
@@ -51,7 +51,7 @@ bountyRouter.route("/:id")
 
     .put((req, res) => {
         let { id } = req.params;
-        bountyModel.findByIdAndUpdate(id, req.body, {new: ture},(err, updatedBounty) => {
+        bountyModel.findByIdAndUpdate(id, req.body, {new: true},(err, updatedBounty) => {
             if (err) {
                 console.error(err);
             } else {

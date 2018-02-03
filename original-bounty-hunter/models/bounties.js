@@ -2,13 +2,13 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const databaseSchema = new Schema({
-    first_name: String,
+    firstName: String,
 
-    last_name: String,
+    lastName: String,
     
     living: Boolean,
     
-    bounty_amount: Number,
+    bountyAmount: Number,
 
     type: String 
 
